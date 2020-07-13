@@ -24,7 +24,7 @@ int main()
 			m=i;
 		}
 	}
-	cout<<x<<z;
+	//cout<<x<<z;
 	if(x==1)
 		cout<<y+1<<endl;
 	else if(z==1)
