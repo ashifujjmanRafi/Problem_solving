@@ -2,16 +2,14 @@
 using namespace std;
 int main()
 {
-	int tc,x;
+	int tc,n,s,t,min1;
 	cin>>tc;
 	while(tc--){
-		cin>>x;
-		while(x--){
-			cout<<999<<" ";
-		}
-		cout<<endl;
-
+		cin>>n>>s>>t;
+		min1=min(s,t);
+		min1=(n-min1)+1;
+		cout<<min1<<endl;
 	}
 	
 	return 0;
-} 
+}
