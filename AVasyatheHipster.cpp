@@ -2,13 +2,9 @@
 using namespace std;
 int main()
 {
-	string s;
-	cin>>s;
-	for(int i = 1;i<s.size();i++){
-
-		
-
-	}
+	int x,y;
+	cin>>x>>y;
+	cout<<min(x,y)<<" "<<(max(x,y)-min(x,y))/2<<endl;
 	
 	return 0;
 }
