@@ -7,7 +7,7 @@ int main()
 	int x=1;
 	int arr1[39]={0};
 	string s1;
-	s1={abcdefghijklmnopqrstuvwxyz};
+	//s1={abcdefghijklmnopqrstuvwxyz};
 
 	sort(s.begin(),s.end());
 
