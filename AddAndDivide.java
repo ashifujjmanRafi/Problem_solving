@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import org.graalvm.compiler.core.common.type.ArithmeticOpTable.UnaryOp.Abs;
+
 public class AddAndDivide {
 
     public static void main(String[] args) {
@@ -16,17 +18,19 @@ public class AddAndDivide {
     }
 
     private static void getAns(int a, int b) {
-        int x = 0;
+        int x = 0,y=0;
+        
+        int ss = (int) Math.sqrt(a);
+        y=Math.abs(ss-b)+3;
+        
         if (b < 2){
             b = 2;
             x = 1;}
-
         while (a != 0) {
 
             a = a / b;
-            b = b + 1;
             x++;
         }
-        System.out.println(x);
+        System.out.println(Math.min(x, y));
     }
 }
