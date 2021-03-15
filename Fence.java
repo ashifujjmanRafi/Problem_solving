@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class Fence{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -8,9 +8,9 @@ public class Fence{
             int a = in.nextInt();
             int b = in.nextInt();
             int c = in.nextInt();
-            long x=(a+b+c)-1;
-
-            System.out.println(x);
+            //long x=(a+b+c)-1;
+ 
+            System.out.println(Math.max(Math.max(a,b),c));
             
         }
     }
