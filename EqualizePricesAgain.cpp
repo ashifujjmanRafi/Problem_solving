@@ -15,17 +15,8 @@ int main()
             cin >> price[i];
             out += price[i];
         }
-        sort(price,price+goods);
-        for (int i = 0; i < goods; i++)
-        {
-            if (price[i] * goods >= out)
-            {
-                out = price[i];
-                break;
-                
-            }
-        }
+        
 
-        cout<<out<<endl;
+        cout<<(out+goods-1)/goods<<endl;
     }
 }
