@@ -7,10 +7,10 @@ for i in range(tc):
         k=k
     else:
         k=n
-    #l1.sort()
-    print(l1)
+    
+    #print(l1)
     for j in range(k):
-        l1[j]=l1[j]+1
-        print(l1[j])
-    l1[n-1]=l1[n-1]-1
+        l1[j]=l1[j]-1
+        l1[n-1]=l1[n-1]+1
+        n-=n
     print(l1)
