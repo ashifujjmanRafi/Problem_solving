@@ -5,3 +5,4 @@ for i in range(int(input())):
     else:
         print("NO")
 
+#solved
