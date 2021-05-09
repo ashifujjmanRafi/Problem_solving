@@ -13,6 +13,7 @@ for i in range(int(input())):
         else:
             print(2)
             print(1,2)
+#solved
 
     
             
