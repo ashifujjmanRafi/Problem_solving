@@ -7,4 +7,4 @@ while(i<index):
     #printing whithout space
     i+=inc
     inc+=1
-print()
+print("/n")
